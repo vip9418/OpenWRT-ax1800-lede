@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
       TARGET:
-        default: 'IPQ60XX-WIFI-NO'
+        default: 'IPQ60XX-WIFI'
         required: true
         type: choice
         options: [IPQ60XX-WIFI-NO, IPQ60XX-WIFI]
